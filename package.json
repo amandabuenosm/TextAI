@@ -1,0 +1,23 @@
+{
+  "name": "corretor-texto-ia",
+  "version": "1.0.0",
+  "description": "Um corretor de texto simples via terminal (CLI) usando Node.js e a API do Google Gemini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "gemini",
+    "ia",
+    "cli",
+    "corretor-ortografico"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.15.0",
+    "dotenv": "^16.4.7"
+  }
+}
